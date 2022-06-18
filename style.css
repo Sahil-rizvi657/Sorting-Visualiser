@@ -1,0 +1,122 @@
+
+.mySlides {
+    display: none;
+}
+body{
+    background-color: beige;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.head{
+    margin-top: 20px;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(208, 255, 0);
+    color: darkgreen;
+    border-radius: 15px;
+}
+
+.btn1{
+    padding: 10px;
+    font-weight: bolder;
+    background-color: darkcyan;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    border: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.btn1:hover{
+   
+    background-color: greenyellow;
+    box-shadow: 2px 3px grey;
+
+}
+
+.data-container{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    margin: 30px auto;
+    background-color: rgba(0, 0, 0, 0.888);
+  
+}
+
+.sort-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    ;
+    /* margin: auto; */
+}
+
+.btn2{
+    padding: 10px;
+    font-weight: bolder;
+    background-color: darkcyan;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    border: white;
+    margin: 10px;
+}
+.btn2:hover{
+   
+    background-color: greenyellow;
+    box-shadow: 2px 3px grey;
+
+}
+
+.btn3{
+    padding: 10px;
+    font-weight: bolder;
+    background-color: rgb(85, 0, 128);
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    border: white;
+    margin: 10px;
+}
+.btn3:hover{
+   
+    background-color: blueviolet;
+    box-shadow: 2px 3px grey;
+
+}
+
+
+.bar {
+    width: 29px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(0, 242, 255);
+    transition: 0.2s all ease;
+}
+/* these are create to generate bars in script.js*/ 
+
+.bar__label {
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+/* imag adding to it*/
+
+img{
+    display: inline;
+    margin-top: 20px;
+     margin-left: auto;
+    margin-right: auto;
+  
+    width: 400px;
+    height: auto;
+    
+}

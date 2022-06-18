@@ -1,0 +1,71 @@
+
+<html>
+  
+  <!-- head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      
+    <!-- title -->
+    <title> <%= Sort %> Sorting Visualizer</title>
+  
+    <!-- linking style.css -->
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  
+  <!-- body -->
+  <body >
+
+        <section class="head"><h1>Sorting Visualizer</h1></section>
+        <button class="btn1" id="Button1" onclick="generate()">
+            NEW ARRAY
+        </button>
+    
+           
+     
+        <section class = "data-container"></section>
+        
+
+        <!--button to Generate new Array-->
+      
+        <!--Selection sort button-->
+        <section class="sort-btn">
+        <button class="btn2" id="Button2" onclick="SelectionSort(),disable()">
+            SELECTION SORT
+        </button>
+        <button class="btn3" id="show-btn-ss" onclick="show_SS()" >
+            Code
+        </button>
+       
+        <button class="btn2" id="Button3" onclick="BubbleSort(),disable()">
+            BUBBLE SORT
+        </button>
+        <button class="btn3" id="show-btn-bs" onclick="show_BS()" >
+            Code
+        </button>
+        <button class="btn2" id="Button4" onclick="InsertionSort(),disable()">
+            INSERTION SORT
+        </button>
+        <button class="btn3" id="show-btn-is" onclick="show_IS()" >
+            Code
+        </button>
+        <!-- <button class="btn2" id="Button5" onclick="HeapSort(),disable()" >
+            HEAP SORT
+        </button>
+        <button class="btn3" id="show-btn-hs" onclick="show_HS()" >
+            Code
+        </button> -->
+        </section>
+        <!-- <img src="selcsort.png"> -->
+        <img id="image_SS" src="" />
+        <img id="image_BS" src="" />
+        <img id="image_IS" src="" />
+
+
+  </body>
+  
+  <!-- linking index.js -->
+  <script src="script.js"></script>
+</html>
